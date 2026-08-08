@@ -3,7 +3,7 @@ const days = document.getElementById("days"),
       min = document.getElementById("min"),
       sec = document.getElementById("sec");
 
-const xv = new Date("June 13, 2025 00:00:00")
+const xv = new Date("December 24, 2026 00:00:00")
 
 setInterval(() => {
     let hoy = new Date().getTime()
